@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+:root{
+    --cor-salmao: #F4E285;
+    --cor-verde: #083D2B;
+    --cor-verdeC: #8CB369;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    padding: 20px;
+}
+body{
+    display: flex;
+    min-height: 300vw;
+    font-family: "Italiana", sans-serif;
+    font-size: 20px;
+}
+.abrir{
+    position: absolute;
+    top: -46px;
+    right: 130px;
+    background-color: var(--cor-verdeC);
+    width: 40px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#nav-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-verde);
+    justify-content: space-between;
+    height: 100vh;
+    width: 50px;
+    position: fixed;
+    box-shadow: 2px 2px 2px var(--cor-verdeC);
+    top: 0px;
+    left: 0px;
+    transition: .8s;
+    overflow: hidden;
+    border-radius: 0px 10px 10px 0px;
+}
+#nav-lateral.open-nav{
+    width: 180px;
+}
+#nav-lateral:hover{
+    width: 180px;
+}
+#nav_con{
+    padding: 20px;
+    position: absolute;
+    top: 3em;
+    left: -7px;
+}
+#itens{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: -10px;
+    list-style: none;
+}
+.item{
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.item.active{
+    background-color: var(--cor-verdeC);
+}
+.item:hover:not(.item.active){
+    background-color: #F4E285;
+}
+.item:hover:not(.item.active){
+    transition: .8s;
+}
+.item a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+   gap: 14px;
+    color: rgb(255, 255, 255);
+}
+.item a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+header{
+    background-color: var(--cor-salmao);
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px var(--cor-verde);
+    width: 100%;
+    height: 4em;
+}
+div#logo{
+    width: 105px;
+    height: 100%;
+    position: relative;
+    left: 1em;
+}
+div#logo>img{
+    width: 120%;
+    height: 100%;
+    object-fit: cover;
+}
+.abrir{
+    position: absolute;
+    top: -46px;
+    right: 130px;
+    background-color: var(--cor-verdeC);
+    width: 40px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+
+

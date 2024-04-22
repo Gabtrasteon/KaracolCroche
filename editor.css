@@ -1,0 +1,52 @@
+:root{
+    --cor-salmao: #F4E285;
+    --cor-verde: #083D2B;
+    --cor-verdeC: #8CB369;
+    --cor-rosinha: #b36969;
+    --cor-corback_verde: #00ffa887;
+}
+/*Cor da pagina*/
+body{
+    background-color: white;
+}
+/*Aqui muda a cor do bottao de abrir a navbar*/
+
+.abrir{
+    background-color: var(--cor-verdeC);
+}
+
+/*Aqui muda a cor da navbar*/
+#nav-lateral{
+    background-color: var(--cor-rosinha);
+    font-family: "Italiana", sans-serif;
+}
+/*Aqui muda a cor dos icones*/
+.item a{
+    color: rgb(255, 255, 255);
+}
+/*Aqui muda a cor do item selecionado*/
+.item.active{
+    background-color: var(--cor-verdeC);
+}
+/*Aqui muda a cor do item quando o mouse e passado por cima*/
+.item:hover:not(.item.active){
+    background-color: #000000;
+}
+
+/*Aqui muda a cor do cabecalho*/
+header{
+    background-color: var(--cor-salmao);
+    box-shadow: 2px 2px 2px var(--cor-verde);
+}
+/*Aqui muda a fonte dos titulos dos croche*/
+div.conteudo{
+    font-family: vertical;
+}
+/*Aqui muda a fonte do preço e da descrição do produto*/
+div#descricao,div.conteudo p, div.conteudo h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Aqui muda a cor do cards de croche*/
+div.conteudo>section.cards{
+    background: var(--cor-verdeC);
+}
