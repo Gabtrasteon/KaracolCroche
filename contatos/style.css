@@ -141,6 +141,14 @@ div#logo>img{
     display: flex;
     justify-content: space-around;
 }
+.zap:last-child{
+    left: 50px;
+    width: calc(100% - 50px);
+    gap: 3px;
+    bottom: calc(100% - 37%);
+    display: flex;
+    justify-content: space-evenly;
+}
 .insta{
     display: flex;
     flex-direction: column;
