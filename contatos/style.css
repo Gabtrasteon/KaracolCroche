@@ -5,19 +5,16 @@
     --cor-verde: #083D2B;
     --cor-verdeC: #8CB369;
 }
+body{
+    font-size: 20px;
+}
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 main{
-    padding: 20px;
-}
-body{
-    display: flex;
-    min-height: 300vw;
-    font-family: "Italiana", sans-serif;
-    font-size: 20px;
+    height: 100%;
 }
 .abrir{
     position: absolute;
@@ -31,6 +28,7 @@ body{
     border-radius: 10px;
 }
 #nav-lateral{
+    z-index: 10;
     display: flex;
     flex-direction: column;
     background-color: var(--cor-verde);
@@ -98,7 +96,8 @@ header{
     justify-content: center;
     box-shadow: 2px 2px 2px var(--cor-verde);
     width: 100%;
-    height: 4em;
+    height: 5em;
+    margin-bottom: 10px;
 }
 div#logo{
     width: 105px;
@@ -122,9 +121,29 @@ div#logo>img{
     cursor: pointer;
     border-radius: 10px;
 }
-
-
-
-
-
+#fundo{
+    position: absolute;
+    width: calc(100% - 50px);
+    height: 20%;
+    left: 50px;
+    display: flex;
+    align-items: center;
+}
+#fundo img{
+    position: absolute;
+    top: 100%;
+}
+.zap{
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 50px);
+    gap: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
