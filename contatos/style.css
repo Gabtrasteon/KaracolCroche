@@ -134,16 +134,19 @@ div#logo>img{
     top: 100%;
 }
 .zap{
-    position: absolute;
+    position: relative;
+    padding-bottom: 25px;
     left: 50px;
     width: calc(100% - 50px);
     gap: 3px;
     display: flex;
     justify-content: space-around;
 }
+
 .zap:last-child{
     left: 50px;
     width: calc(100% - 50px);
+    padding-bottom: 0px;
     gap: 3px;
     bottom: calc(100% - 37%);
     display: flex;
@@ -154,4 +157,26 @@ div#logo>img{
     flex-direction: column;
     align-items: center;
 }
-
+.img{
+    display: flex;
+    position: relative;
+    height: 100%;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img a img{
+    border-radius: 50px;
+}
+.drt{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    gap: 10px;
+    width: calc(100% - 50px);
+    left: 50px;
+    justify-content: center;
+}
+.img a{
+    width: calc(100% - 67%);
+}

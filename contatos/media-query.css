@@ -1,4 +1,16 @@
 @charset "UTF-8";
+@media screen and (max-width: 699px){
+    .drt{
+        display: none;
+    }
+}
+@media screen and (min-width: 700px){
+    .zap , .zap:last-child{
+        display: none;
+    }
+    
+}
+
 @media screen and (min-width: 992px){
     body{
         .abrir{
