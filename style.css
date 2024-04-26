@@ -15,11 +15,26 @@ main{
 }
 body{
     display: flex;
-    min-height: 300vw;
     font-family: "Italiana", sans-serif;
     font-size: 20px;
 }
+
+.espaco{
+    width: calc(100% - 50px);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 50px;
+    height: calc(100% - 80px);
+    top: 80px;
+}
+
+.essl{
+    width: 500px;
+}
+
 #nav-lateral{
+    z-index: 10;
     display: flex;
     flex-direction: column;
     background-color: var(--cor-verde);

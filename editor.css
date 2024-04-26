@@ -4,6 +4,8 @@
     --cor-verdeC: #8CB369;
     --cor-rosinha: #b36969;
     --cor-corback_verde: #00ffa887;
+    --cor-amarilo:#b1b369;
+    --cor-ama:#b38f69;
 }
 @media screen and (max-width: 300px) {
     div.conteudo section.cards{
