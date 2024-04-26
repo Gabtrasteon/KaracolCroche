@@ -1,8 +1,33 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 566px) {
+@media screen and (max-width: 378px){
+    .espaco{
+        width: calc(100% - 50px) !important;
+    }
+    .essl{
+        width: 210px;
+    }
     .slide-box img{
+        width: 210px !important;
+
+    }
+    .nav-manual, .nav-auto{
+        width: 210px !important;
+        top: 132px !important;
+    }
+}
+
+@media screen and (min-width: 378px) and (max-width: 560px){
+
+    .essl{
         width: 300px;
+    }
+    .slide-box img{
+        width: 300px !important;
+    }
+    .nav-manual, .nav-auto{
+        width: 300px !important;
+        top: 183px !important;
     }
 }
 
