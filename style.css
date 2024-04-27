@@ -5,6 +5,7 @@
     --cor-verde: #083D2B;
     --cor-verdeC: #8CB369;
 }
+
 *{
     padding: 0px;
     margin: 0px;
@@ -26,7 +27,6 @@ body{
     align-items: center;
     flex-direction: column;
     left: 50px;
-    height: calc(100% - 80px);
     top: 80px;
 }
 
@@ -42,10 +42,14 @@ body{
 }
 
 .noticias{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.noticias:last-child{
+    margin-bottom: 20px;
 }
 
 div.conteudo{

@@ -68,7 +68,7 @@ body{
 }
 /*Aqui muda a cor do item quando o mouse e passado por cima*/
 .item:hover:not(.item.active){
-    background-color: #000000;
+    background-color: #e0ff31;
 }
 
 /*Aqui muda a cor do cabecalho*/
@@ -86,5 +86,10 @@ div#descricao,div.conteudo p, div.conteudo h3{
 }
 /*Aqui muda a cor do cards de croche*/
 div.conteudo>section.cards{
-    background: var(--cor-verdeC);
+    background: var(--cor-amarilo);
+}
+
+.rodape{
+    height: 30px;
+    background-color: black;
 }
