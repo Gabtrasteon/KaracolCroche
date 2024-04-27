@@ -88,8 +88,3 @@ div#descricao,div.conteudo p, div.conteudo h3{
 div.conteudo>section.cards{
     background: var(--cor-amarilo);
 }
-
-.rodape{
-    height: 30px;
-    background-color: black;
-}

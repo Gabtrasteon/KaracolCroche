@@ -75,19 +75,21 @@ body{
     height: 20px;
 }
 header{
+    background-color: var(--cor-salmao);
     display: flex;
     justify-content: center;
-    width: 100%;
+    box-shadow: 2px 2px 2px var(--cor-verde);
+    width: calc(100% - 50px);
+    position: absolute;
+    left: 50px;
     height: 4em;
 }
 div#logo{
     width: 105px;
     height: 100%;
-    position: relative;
-    left: 1em;
 }
 div#logo>img{
-    width: 120%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
