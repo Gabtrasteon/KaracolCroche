@@ -5,6 +5,7 @@
     --cor-verde: #083D2B;
     --cor-verdeC: #8CB369;
     --cor-rosinha: #b36969;
+    --cor-rosaEscuro:#734242;
     --cor-corback_verde: #00ffa887;
 }
 *{
@@ -135,29 +136,57 @@ header.dark{
     background-color: black;
     box-shadow: 2px 2px 2px white;
 }
-header.dark .logo img{
-    background-image: url(../fotos_croche/logodark.png);
-}
 .espaco.dark{
     color: #c9c9c9;
 }
-div#logo{
+.espaco.dark div.conteudo section.cards{
+    background-color: var(--cor-rosaEscuro);
+}
+div#logo.dark{
+    background-position-y: -10px;
     width: 105px;
     height: 100%;
+    background-image: url(../fotos_croche/logodark.png);
+    background-size: 100%;
 }
-div#logo>img{
-    width: 100%;
+div#logo{
+    background-position-y: -10px;
+    width: 105px;
     height: 100%;
-    object-fit: cover;
+    background-image: url(../fotos_croche/logo.png);
+    background-size: 100%;
+}
+#nav-lateral.dark{
+    background-color: black;
+    box-shadow: 2px 2px 2px white;
+}
+#nav-lateral.dark div#nav_con li.item.active{
+    border-style: double;
+    border-width: 2px;
+    border-color: white;
+}
+#nav-lateral.dark div#nav_con .abrir{
+    background-color: black;
+    border-style: double;
+    border-width: 2px;
+    border-color: white;
+}
+#nav-lateral.dark .item:hover:not(.item.active){
+    background-color: black;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
 }
 div.espaco{
-    transition: 2s;
     display: flex;
     justify-content: center;
     position: absolute;
     width: calc(100% - 50px);
     top: 4em;
     left: 50px;
+}
+.espaco div.conteudo section.cards{
+    transition: 2s;
 }
 div.conteudo{
     display: flex;

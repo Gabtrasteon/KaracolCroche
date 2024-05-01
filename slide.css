@@ -33,7 +33,7 @@ section.slider{
 #radio2:checked ~ .primeiro{
     margin-left: -62.5%;
 }#radio3:checked ~ .primeiro{
-    margin-left: -50%;
+    margin-left: -125%;
 }
 .nav-manual , .nav-auto{
     position: absolute;

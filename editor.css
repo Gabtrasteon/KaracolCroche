@@ -91,5 +91,5 @@ div#descricao,div.conteudo p, div.conteudo h3{
 }
 /*Aqui muda a cor do cards de croche*/
 div.conteudo>section.cards{
-    background: var(--cor-rosaEscuro);
+    background: var(--cor-amarilo);
 }
