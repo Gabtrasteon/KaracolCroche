@@ -6,6 +6,10 @@
     --cor-corback_verde: #00ffa887;
     --cor-amarilo:#b1b369;
     --cor-ama:#b38f69;
+    --cor-verdesES:rgb(1, 15, 8);
+}
+div.conteudo section.cards h3{
+    font-size: 100px;
 }
 @media screen and (max-width: 300px) {
     div.conteudo section.cards{
@@ -64,11 +68,11 @@ body{
 }
 /*Aqui muda a cor do item selecionado*/
 .item.active{
-    background-color: var(--cor-verdeC);
+    background-color: var(--cor-verdesES);
 }
 /*Aqui muda a cor do item quando o mouse e passado por cima*/
 .item:hover:not(.item.active){
-    background-color: #e0ff31;
+    background-color: #00ffa887;
 }
 
 /*Aqui muda a cor do cabecalho*/
