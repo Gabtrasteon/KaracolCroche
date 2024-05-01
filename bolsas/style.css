@@ -18,6 +18,7 @@ main{
 }
 body{
     display: flex;
+    transition: 2s;
     background-color: black;
     font-size: 20px;
 }
@@ -85,6 +86,7 @@ body{
     height: 20px;
 }
 header{
+    transition: 2s;
     background-color: var(--cor-salmao);
     display: flex;
     justify-content: center;
@@ -93,6 +95,51 @@ header{
     position: absolute;
     left: 50px;
     height: 4em;
+    align-items: center;
+}
+.trilho{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 100px;
+    right: calc(100% - 95%);
+    background-color: #b3a561;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+}
+.indicador{
+    width: 28px;
+    height: 23px;
+    left: 5px;
+    border-radius: 100px;
+    transform: scale(1.1);
+    position: absolute;
+    background-color: white;
+    transition: 1.5s;
+}
+
+.trilho.dark{
+    background-color: white;
+}
+
+.trilho.dark .indicador{
+    left: 28px;
+    background-color: rgb(0, 0, 0);
+}
+body.dark{
+    background-color: black;
+}
+header.dark{
+    background-color: black;
+    box-shadow: 2px 2px 2px white;
+}
+header.dark .logo img{
+    background-image: url(../fotos_croche/logodark.png);
+}
+.espaco.dark{
+    color: #c9c9c9;
 }
 div#logo{
     width: 105px;
@@ -104,6 +151,7 @@ div#logo>img{
     object-fit: cover;
 }
 div.espaco{
+    transition: 2s;
     display: flex;
     justify-content: center;
     position: absolute;

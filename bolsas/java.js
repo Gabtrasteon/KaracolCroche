@@ -1,0 +1,10 @@
+let trilho = document.getElementById('trilho')
+let card = document.getElementsByClassName('espaco')
+let body = document.querySelector('body')
+let header = document.querySelector('header')
+trilho.addEventListener('click',()=>{
+    trilho.classList.toggle('dark')
+    body.classList.toggle('dark')
+    header.classList.toggle('dark')
+    espaco.classList.toggle('dark')
+})

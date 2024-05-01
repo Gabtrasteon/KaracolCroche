@@ -138,6 +138,7 @@ div#logo>img{
     left: 50px;
     width: calc(100% - 50px);
     gap: 3px;
+    top: 5em;
     display: flex;
     justify-content: space-around;
 }
@@ -172,6 +173,7 @@ div#logo>img{
     flex-wrap: wrap;
     position: absolute;
     gap: 10px;
+    top: 5em;
     width: calc(100% - 50px);
     left: 50px;
     justify-content: center;

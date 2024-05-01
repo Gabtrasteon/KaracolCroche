@@ -1,5 +1,18 @@
 @charset "UTF-8";
-@media screen and (max-width: 699px){
+@media screen and (max-width: 300px){
+    .zap{
+        display: flex;
+        flex-direction: column;
+    }
+    .drt{
+        display: none;
+    }
+    #fundo{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 699px){
     .drt{
         display: none;
     }
