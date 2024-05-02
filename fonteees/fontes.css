@@ -5,7 +5,8 @@
     9-katto ; 10-kinder ; 11-lemon ; 12-mix
     13-monday ; 14-sunday ; 15-pat1 ; 16-pat2
     17-pw ; 18-sugar ; 19-vertical ; 20-comic 
-    21-easy ; 22-grande ; 23-stone
+    21-easy ; 22-grande ; 23-stone ; 24-heyam
+    25-tell ;
 
 */
 
@@ -112,6 +113,14 @@
     font-family:'stone' ;
     src: url("STONES.ttf");
 }
+@font-face{
+    font-family:'heyam' ;
+    src: url("Heyam.ttf");
+}
+@font-face{
+    font-family:'tell' ;
+    src: url("Tell Me A Joke.ttf");
+}
 
 .texto:nth-child(1){
     font-family: 'bubbly';
@@ -182,5 +191,10 @@
 .texto:nth-child(23){
     font-family: 'stone';
 }
-
+.texto:nth-child(24){
+    font-family: 'heyam';
+}
+.texto:nth-child(25){
+    font-family: 'tell';
+}
 

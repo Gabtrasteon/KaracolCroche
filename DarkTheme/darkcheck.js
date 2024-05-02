@@ -4,6 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.classList.add('dark');
         document.querySelector('header').classList.add('dark');
         document.getElementById('nav-lateral').classList.add('dark');
-        
+        document.getElementById('espaco').classList.add('dark');
     }
 });

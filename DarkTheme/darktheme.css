@@ -40,9 +40,6 @@ header.dark{
 .espaco.dark{
     color: white;
 }
-.espaco.dark div.conteudo section.cards{
-    background-color: var(--cor-rosaEscuro);
-}
 .espaco.dark .noticias .conteudo{
     background-color: black;
     border-color: white;
@@ -82,10 +79,9 @@ div#logo{
     border-width: 2px;
     border-color: white;
 }
-.espaco div.conteudo section.cards{
-    transition: 2s;
-}
-
 body.dark main .zap{
     color: white;
+}
+.espaco.dark .conteudo section.cards{
+    background: var(--cor-rosaEscuro);
 }
