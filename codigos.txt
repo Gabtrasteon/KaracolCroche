@@ -1,0 +1,35 @@
+java
+
+let trilho = document.getElementById('trilho')
+let logo = document.getElementById('logo')
+let card = document.getElementsByClassName('espaco')
+let body = document.querySelector('body')
+let header = document.querySelector('header')
+let nav = document.getElementById('nav-lateral')
+trilho.addEventListener('click',()=>{
+    trilho.classList.toggle('dark')
+    body.classList.toggle('dark')
+    header.classList.toggle('dark')
+    espaco.classList.toggle('dark')
+    logo.classList.toggle('dark')
+    nav.classList.toggle('dark')
+})
+
+
+
+css
+
+let trilho = document.getElementById('trilho')
+let logo = document.getElementById('logo')
+let card = document.getElementsByClassName('espaco')
+let body = document.querySelector('body')
+let header = document.querySelector('header')
+let nav = document.getElementById('nav-lateral')
+trilho.addEventListener('click',()=>{
+    trilho.classList.toggle('dark')
+    body.classList.toggle('dark')
+    header.classList.toggle('dark')
+    espaco.classList.toggle('dark')
+    logo.classList.toggle('dark')
+    nav.classList.toggle('dark')
+})

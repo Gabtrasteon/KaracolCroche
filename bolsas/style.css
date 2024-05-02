@@ -19,7 +19,6 @@ main{
 }
 body{
     display: flex;
-    transition: 2s;
     background-color: black;
     font-size: 20px;
 }
@@ -52,7 +51,6 @@ body{
     width: 180px;
 }
 #nav_con{
-    transition: 1s;
     padding: 20px;
     position: absolute;
     top: 3em;
@@ -87,7 +85,6 @@ body{
     height: 20px;
 }
 header{
-    transition: 2s;
     background-color: var(--cor-salmao);
     display: flex;
     justify-content: center;
@@ -118,7 +115,6 @@ header{
     transform: scale(1.1);
     position: absolute;
     background-color: white;
-    transition: 1.5s;
 }
 
 .trilho.dark{
@@ -184,9 +180,6 @@ div.espaco{
     width: calc(100% - 50px);
     top: 4em;
     left: 50px;
-}
-.espaco div.conteudo section.cards{
-    transition: 2s;
 }
 div.conteudo{
     display: flex;

@@ -32,6 +32,8 @@ body{
 
 .essl{
     width: 500px;
+    position: relative;
+    top: 10px;
 }
 
 .titulo h1{
@@ -124,7 +126,7 @@ div.conteudo{
     text-decoration: none;
     display: flex;
     align-items: center;
-   gap: 14px;
+    gap: 14px;
     color: rgb(255, 255, 255);
 }
 .item a i {
@@ -135,6 +137,7 @@ div.conteudo{
     height: 20px;
 }
 header{
+    align-items: center;
     background-color: var(--cor-salmao);
     display: flex;
     justify-content: center;
@@ -153,8 +156,3 @@ div#logo>img{
     height: 100%;
     object-fit: cover;
 }
-
-
-
-
-

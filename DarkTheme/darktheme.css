@@ -1,0 +1,91 @@
+
+
+.trilho{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    border-radius: 100px;
+    right: calc(100% - 95%);
+    background-color: #b3a561;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+}
+.indicador{
+    width: 28px;
+    height: 23px;
+    left: 5px;
+    border-radius: 100px;
+    transform: scale(1.1);
+    position: absolute;
+    background-color: white;
+}
+
+.trilho.dark{
+    background-color: white;
+}
+
+.trilho.dark .indicador{
+    left: 28px;
+    background-color: rgb(0, 0, 0);
+}
+body.dark{
+    background-color: black;
+}
+header.dark{
+    background-color: black;
+    box-shadow: 2px 2px 2px white;
+}
+.espaco.dark{
+    color: white;
+}
+.espaco.dark div.conteudo section.cards{
+    background-color: var(--cor-rosaEscuro);
+}
+.espaco.dark .noticias .conteudo{
+    background-color: black;
+    border-color: white;
+}
+header.dark #logo{
+    background-position-y: -10px;
+    width: 105px;
+    height: 100%;
+    background-image: url(../fotos_croche/logodark.png);
+    background-size: 100%;
+}
+div#logo{
+    background-position-y: -10px;
+    width: 105px;
+    background-image: url(../fotos_croche/logo.png);
+    height: 100%;
+    background-size: 100%;
+}
+#nav-lateral.dark{
+    background-color: black;
+    box-shadow: 2px 2px 2px white;
+}
+#nav-lateral.dark div#nav_con li.item.active{
+    border-style: double;
+    border-width: 2px;
+    border-color: white;
+}
+#nav-lateral.dark div#nav_con .abrir{
+    background-color: black;
+    border-style: double;
+    border-width: 2px;
+    border-color: white;
+}
+#nav-lateral.dark .item:hover:not(.item.active){
+    background-color: black;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: white;
+}
+.espaco div.conteudo section.cards{
+    transition: 2s;
+}
+
+body.dark main .zap{
+    color: white;
+}

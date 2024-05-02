@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="fontes.css">
     <link rel="stylesheet" href="editor.css">
     <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="DarkTheme/darktheme.css">
     <script src="slide.js" defer></script>
+    <script src="DarkTheme/darktheme.js" defer></script>
     <link rel="shortcut icon" type="imagex/png" href="fotos_croche/icon_Karacol.png">
 </head>
 <body>
-    <nav id="nav-lateral">
+    <nav class="nav-lateral" id="nav-lateral">
         <div id="nav_con">
             <button class="abrir">
                 <i class="bi bi-arrow-right-short"></i>
@@ -79,11 +81,15 @@
         </nav>
         </div>
     <header>
-        <div id="logo">
-            <img src="fotos_croche/logo.png" alt="">
+        <div class="logo" id="logo">
+
+        </div>
+        <div class="trilho" id="trilho">
+            <div class="indicador" onclick="dark()">  
+            </div>
         </div>
     </header>
-    <div class="espaco">
+    <div class="espaco" id="espaco">
         <div class="essl">
             <section class="slider">
                 <div class="slider-content">
@@ -112,6 +118,7 @@
                 </div>
             </section>
         </div>
+        <br>
         <div class="noticias">
             <div class="titulo">
                 <h1>Rapaz deu certo memo</h1>
