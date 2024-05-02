@@ -9,6 +9,16 @@
     --cor-rosaEscuro:#734242;
     --cor-verdesES:rgb(1, 15, 8);
 }
+
+/*ALTERAR FONTES E COR DOS TITULOS DA PAGINA HOME*/
+
+.titulo h1{
+    font-family: 'pat1';
+    color: aqua;
+    font-size: 10px;
+}
+
+
 div.conteudo section.cards h3{
     font-size: 30px;
 }
