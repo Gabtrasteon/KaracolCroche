@@ -74,11 +74,16 @@ div.conteudo{
 }
 .conteudo:last-child{
     flex-direction: row;
+    gap: 20px;
+}
+.conteudo video{
+    align-items: center;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
-}
-.conteudo:last-child blockquote{
-    border-radius: 15px;
 }
 
 #nav-lateral{
