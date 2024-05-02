@@ -35,14 +35,22 @@ body{
     position: relative;
     top: 10px;
 }
-
+/*
+    ABAIXO SE EDITA AS NOTICIAS....
+*/
 .titulo h1{
+    
     font-size: 20px;
+    padding: 0px 25px 0px 25px;
 }
 .conteudo p{
+
+    
     font-size: 15px;
 }
-
+/*
+    ACIMA SE EDITA AS NOTICIAS....
+*/
 .noticias{
     margin-top: 30px;
     display: flex;
@@ -55,6 +63,8 @@ body{
 }
 
 div.conteudo{
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     width: calc(100% - 10%);
     height: auto;
