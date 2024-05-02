@@ -75,10 +75,11 @@ div.conteudo{
 .conteudo:last-child{
     flex-direction: row;
     gap: 20px;
+    justify-content: center;
 }
 .conteudo video{
     align-items: center;
-    width: 200px;
+    width: calc(100% - 30%);
     height: auto;
     border-radius: 15px;
     flex-direction: row;
