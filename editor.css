@@ -91,6 +91,16 @@ header{
     background-color: var(--cor-salmao);
     box-shadow: 2px 2px 2px var(--cor-verde);
 }
+
+header .copy{
+    display: flex;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 3px;
+    right: 10px;
+}
+
 /*Aqui muda a fonte dos titulos dos croche*/
 div.conteudo{
     font-family: vertical;

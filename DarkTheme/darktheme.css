@@ -40,6 +40,9 @@ header.dark{
     background-color: black;
     box-shadow: 2px 2px 2px white;
 }
+header.dark .copy{
+    color: white;
+}
 .espaco.dark{
     color: white;
 }
