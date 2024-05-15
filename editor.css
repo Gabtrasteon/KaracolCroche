@@ -103,7 +103,7 @@ header .copy{
 
 /*Aqui muda a fonte dos titulos dos croche*/
 div.conteudo{
-    font-family: vertical;
+    font-family: 'cute';
 }
 /*Aqui muda a fonte do preço e da descrição do produto*/
 div#descricao,div.conteudo p, div.conteudo h3{
