@@ -44,12 +44,18 @@ body{
     padding: 0px 25px 0px 25px;
 }
 .conteudo p{
+
     text-align: center;
     font-size: 18px;
+
 }
 /*
     ACIMA SE EDITA AS NOTICIAS....
 */
+.conteudo img{
+    width: 450px;
+    border-radius: 10px;
+}
 .noticias{
     
     gap: 20px;

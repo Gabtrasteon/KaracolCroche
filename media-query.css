@@ -15,6 +15,9 @@
         width: 210px !important;
         top: 132px !important;
     }
+    .espaco img{
+        width: 200px;
+    }
 }
 
 @media screen and (min-width: 378px) and (max-width: 560px){
@@ -27,6 +30,10 @@
     .nav-manual, .nav-auto{
         width: 300px !important;
         top: 183px !important;
+    }
+    .conteudo img{
+        min-width: 300px;
+        width: 300px;
     }
 }
 
