@@ -17,8 +17,9 @@
     color: rgb(25, 0, 255);
     font-size: 10px;
 }
-
-
+.noticias p{
+    font-family: 'arial'!important;
+}
 div.conteudo section.cards h3{
     font-size: 30px;
 }
